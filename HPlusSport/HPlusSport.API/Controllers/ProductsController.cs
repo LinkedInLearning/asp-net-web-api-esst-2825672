@@ -83,5 +83,31 @@ namespace HPlusSport.API.Controllers
                 product);
         }
 
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutProduct([FromRoute]int id, [FromBody]Product product)
+        {
+            if (id != product.Id)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(product).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (_context.Products.Find(id) == null)
+                {
+                    return NotFound();
+                }
+
+                throw;
+            }
+
+            return NoContent();
+        }
     }
 }
