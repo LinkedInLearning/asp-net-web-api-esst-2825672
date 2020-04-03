@@ -7,12 +7,14 @@ using Microsoft.AspNetCore.Mvc;
 using HPlusSport.API.Models;
 using Microsoft.EntityFrameworkCore;
 using HPlusSport.API.Classes;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HPlusSport.API.Controllers
 {
     [ApiVersion("1.0")]
     //[Route("v{v:apiVersion}/products")]
     [Route("products")]
+    [Authorize]
     [ApiController]
     public class ProductsV1_Controller : ControllerBase
     {

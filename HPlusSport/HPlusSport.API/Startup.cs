@@ -40,6 +40,15 @@ namespace HPlusSport.API
                 //    options.SuppressModelStateInvalidFilter = true)
                 ;
 
+            services.AddAuthentication("Bearer")
+                .AddJwtBearer("Bearer", options =>
+                {
+                    options.Authority = "http://localhost:51959";
+                    options.RequireHttpsMetadata = false;
+
+                    options.Audience = "hps-api";
+                });
+
             services.AddCors(options =>
             {
                 options.AddDefaultPolicy(builder =>
@@ -80,6 +89,7 @@ namespace HPlusSport.API
 
             app.UseCors();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
