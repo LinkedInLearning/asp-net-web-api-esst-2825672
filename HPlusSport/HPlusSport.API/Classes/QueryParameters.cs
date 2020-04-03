@@ -12,7 +12,8 @@ namespace HPlusSport.API.Classes
 
         public int Page { get; set; }
         public int Size {
-            get {
+            get 
+            {
                 return _size;
             }
             set
@@ -20,5 +21,22 @@ namespace HPlusSport.API.Classes
                 _size = Math.Min(_maxSize, value);
             }
         }
+
+        public string SortBy { get; set; } = "Id";
+
+        private string _sortOrder = "asc";
+        public string SortOrder { 
+            get 
+            {
+                return _sortOrder;
+            } 
+            set 
+            {
+                if (value == "asc" || value == "desc")
+                {
+                    _sortOrder = value;
+                }
+            } 
+        }  
     }
 }
