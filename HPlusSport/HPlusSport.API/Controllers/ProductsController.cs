@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using HPlusSport.API.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace HPlusSport.API.Controllers
 {
@@ -21,16 +22,16 @@ namespace HPlusSport.API.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAllProducts()
+        public async Task<IActionResult> GetAllProducts()
         {
-            var products = _context.Products.ToList();
+            var products = await _context.Products.ToListAsync();
             return Ok(products);
         }
 
         [HttpGet("{id:int}")]
-        public IActionResult GetProduct(int id)
+        public async Task<IActionResult> GetProduct(int id)
         {
-            var product = _context.Products.Find(id);
+            var product = await _context.Products.FindAsync(id);
             if (product == null)
             {
                 return NotFound();
