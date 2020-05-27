@@ -1,7 +1,7 @@
 # ASP.NET Core 3.1 Web API Grundkurs
 Dies ist das Repository für den Kurs [ASP.NET Core 3.1 Web API Grundkurs] auf LinkedIn Learning. Der gesamte Kurs ist auf [LinkedIn Learning](LICOURSEURL) erhältlich.
 
-[COURSEDESCRIPTION]
+Ob Laptop, Handy, Uhr oder sogar Waschmaschine: Alle internetfähigen Geräte müssen mit einem Server verbunden sein. In den meisten Fällen geschieht das über das HTTP-Protokoll und eine Web-API sorgt dafür, dass über eine einheitliche Schnittstelle mit einem Dienst kommuniziert werden kann. Lernen sie in diesem Videokurs, wie Sie mit ASP.NET Core eine mächtige REST-API implementieren können, die von allen Clients angesprochen wird. Ihr Trainer Christian Wenz demonstriert Lese- und Schreiboperationen, erläutert verschiedene Arten der API-Versionierung und zeigt unter anderem, wie die API abgesichert werden kann.
 
 ## Anleitung
 Dieses Repository hat Branches für jedes Video im Kurs. Verwenden Sie das Ausklappmenü "Branch: ..." in GitHub um zwischen den unterschiedlichen Branches hin und her zu wechseln bzw. um bei einem spezifischen Status einzusteigen. Oder Sie fügen `/tree/BRANCH_NAME` der URL hinzu um direkt in den gewünschten Branch zu wechseln.
