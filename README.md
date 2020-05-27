@@ -1,19 +1,16 @@
-# COURSENAME
-This is the repository for the LinkedIn Learning course [COURSENAME]. The full course is available from [LinkedIn Learning](LICOURSEURL).
-
-[![COURSENAME](COURSEIMAGE)](LICOURSEURL)
+# ASP.NET Core 3.1 Web API Grundkurs
+Dies ist das Repository für den Kurs [ASP.NET Core 3.1 Web API Grundkurs] auf LinkedIn Learning. Der gesamte Kurs ist auf [LinkedIn Learning](LICOURSEURL) erhältlich.
 
 [COURSEDESCRIPTION]
 
-## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+## Anleitung
+Dieses Repository hat Branches für jedes Video im Kurs. Verwenden Sie das Ausklappmenü "Branch: ..." in GitHub um zwischen den unterschiedlichen Branches hin und her zu wechseln bzw. um bei einem spezifischen Status einzusteigen. Oder Sie fügen `/tree/BRANCH_NAME` der URL hinzu um direkt in den gewünschten Branch zu wechseln.
 
 ## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `master` branch holds the final state of the code when in the course.
+Die Git Branches sind passend zu den Videos im Kurs strukturiert. Die Namenskonvention lautet `Kapitel#_Video#`. Der Branch `01_03` beinhaltet zum Beispiel die Übungen für das dritte Video im zweiten Kapitel. Einige Branches haben einen Anfangsstatus und einen Endstatus. Der Branch mit dem `e` am Ende beinhaltet in diesem Fall stets den Code der am Ende des Videos zu sehen ist. Der master Branch beinhaltet den initialen Quellcode und wird nicht für die Übungen innerhalb des Kurses genutzt.
 
-## Installing
-1. Zur Verwendung dieser Dateien ben�tigen Sie die folgende Software:
+## Installation
+1. Zur Verwendung dieser Dateien benötigen Sie die folgende Software:
 	- Visual Studio 2019 oder Visual Studio Code
 2. Klonen Sie dieses Repository auf Ihre lokale Maschine. 
-3. �ffnen Sie das Projekt "HPlusSport".
+3. Öffnen Sie das Projekt "HPlusSport".
