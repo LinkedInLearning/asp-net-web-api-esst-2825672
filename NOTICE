@@ -5,7 +5,25 @@ Licensed under the LinkedIn Learning Exercise File License (the "License").
 See LICENSE in the project root for license information.
 
 ATTRIBUTIONS:
-[PLEASE PROVIDE ATTRIBUTIONS OR DELETE THIS AND THE ABOVE LINE “ATTRIBUTIONS”]
+Bootstrap
+https://github.com/twbs/bootstrap
+Copyright (c) 2011-2020 the Bootstrap Authors and Twitter, Inc.
+License:MIT
+
+jQuery
+https://github.com/jquery/jquery
+Copyright JS Foundation and other contributors
+License:MIT
+
+jQuery Validation Plugin
+https://github.com/jquery-validation/jquery-validation/
+Copyright Jörn Zaefferer
+License:MIT
+
+jQuery Unobtrusive Validation
+https://github.com/aspnet/jquery-validation-unobtrusive
+Copyright (c) .NET Foundation.
+License:Apache License 2.0
 
 Please note, this project may automatically load third party code from external 
 repositories (for example, NPM modules, Composer packages, or other dependencies). 
