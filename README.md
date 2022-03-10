@@ -1,5 +1,7 @@
 # ASP.NET Core 3.1 Web API Grundkurs
-Dies ist das Repository für den Kurs [ASP.NET Core 3.1 Web API Grundkurs] auf LinkedIn Learning. Der gesamte Kurs ist auf [LinkedIn Learning](LICOURSEURL) erhältlich.
+Dies ist das Repository für den Kurs [ASP.NET Core 3.1 Web API Grundkurs] auf LinkedIn Learning. Der gesamte Kurs ist auf [LinkedIn Learning][course-url] erhältlich.
+
+![tn-url]
 
 Ob Laptop, Handy, Uhr oder sogar Waschmaschine: Alle internetfähigen Geräte müssen mit einem Server verbunden sein. In den meisten Fällen geschieht das über das HTTP-Protokoll und eine Web-API sorgt dafür, dass über eine einheitliche Schnittstelle mit einem Dienst kommuniziert werden kann. Lernen sie in diesem Videokurs, wie Sie mit ASP.NET Core eine mächtige REST-API implementieren können, die von allen Clients angesprochen wird. Ihr Trainer Christian Wenz demonstriert Lese- und Schreiboperationen, erläutert verschiedene Arten der API-Versionierung und zeigt unter anderem, wie die API abgesichert werden kann.
 
@@ -14,3 +16,6 @@ Die Git Branches sind passend zu den Videos im Kurs strukturiert. Die Namenskonv
 	- Visual Studio 2019 oder Visual Studio Code
 2. Klonen Sie dieses Repository auf Ihre lokale Maschine. 
 3. Öffnen Sie das Projekt "HPlusSport".
+
+[course-url]: https://www.linkedin.com/learning/asp-dot-net-core-3-1-web-api-grundkurs
+[tn-url]: https://media-exp1.licdn.com/dms/image/C4E0DAQG38dtG16Ic8Q/learning-public-crop_675_1200/0/1591178532440?e=1646964000&v=beta&t=rBjFkKacZHBMlurjez2ThbKLsvA7ldsnnZaBFORugAg
