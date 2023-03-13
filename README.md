@@ -18,4 +18,4 @@ Die Git Branches sind passend zu den Videos im Kurs strukturiert. Die Namenskonv
 3. Öffnen Sie das Projekt "HPlusSport".
 
 [course-url]: https://www.linkedin.com/learning/asp-dot-net-core-3-1-web-api-grundkurs
-[tn-url]: https://media-exp1.licdn.com/dms/image/C4E0DAQG38dtG16Ic8Q/learning-public-crop_675_1200/0/1591178532440?e=1646964000&v=beta&t=rBjFkKacZHBMlurjez2ThbKLsvA7ldsnnZaBFORugAg
+[tn-url]: https://cdn.lynda.com/course/2825672/2825672-1591178527790-16x9.jpg
